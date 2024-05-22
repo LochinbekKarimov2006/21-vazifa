@@ -1,0 +1,166 @@
+.div-2{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 124px;
+    justify-content: space-between;
+    div{
+        background-color:#f1f1f1;
+        width: 350px;
+        height: 204px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        // justify-content: center;
+        align-items: center;
+        .img1{
+margin-top: -60px;
+            width: 128px;
+            height: 138px;
+        }
+        h5{
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 1.2857142686843872px;
+             color: $qora;              
+        }
+        a{display: flex;
+            margin-top: 15px;
+            font-size: 25px;
+            align-items: center;
+            font-weight: 500;
+            color: $sariq;
+            p{
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 1px;
+color: #00000085;
+            }
+        }
+        a:hover{
+            color:#0dff00;
+            p{
+            color: $havoranh;
+
+            }
+        }
+    }
+}
+.img2{
+    margin-top: -30px;
+    width: 200px;
+    height: 80px;
+}
+
+.div-3{
+    background-color: $sariq;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 168px;
+    .div-3-1{
+          display: flex;
+          justify-content: center;
+        img{
+            max-width: 410px;
+            max-height: 423px;
+            margin-bottom: -45px;
+        }
+    }
+    .div-3-2{
+        padding: 95px;
+        h2{
+font-size: 56px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 2px;
+color: $oq;
+        }
+        p{
+            margin-top: 24px;
+            margin-bottom: 40px;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+color: $oq;
+        }
+    }
+}
+.div-4{
+    background-image: url(../img/rasmlar-2.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1110px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 2px;
+margin-bottom: 32px;
+margin-left: 100px;
+    }
+    button{
+        margin-left: 100px;
+    }
+}
+
+.div-5{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+    div{
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        h2{
+            font-size: 28px;
+font-weight: 700;
+letter-spacing: 2px;
+margin-bottom: 32px;
+margin-left: 100px;
+        }
+        button{
+            margin-left: 100px;
+        }
+    }
+}
+.div-6{
+max-width: 1110px;
+margin: 0 auto;
+margin-top: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    h2{
+        margin-right: 30px;
+        display: flex;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 1.4285714626312256px;
+text-align: left;
+color: $qora;
+    }
+    p{
+        margin-right: 100px;
+
+        margin-top: 32px;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+color: #353535;
+    }
+}

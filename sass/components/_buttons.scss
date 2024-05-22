@@ -1,0 +1,52 @@
+.button1{
+    width: 160px;
+    height: 48px;
+    border: 0;
+    background-color: $sariq;
+    transition: all .5s ease;
+    a{
+font-size: 13px;
+font-weight: 700;
+line-height: 17.76px;
+letter-spacing: 1px;
+color: $oq;
+    }
+}
+.button1:hover{
+    background-color: $havoranh;
+}
+.button2{
+    width: 160px;
+    height: 48px;
+    border: 0;
+    background-color: $qora;
+    transition: all .5s ease;
+    a{
+font-size: 13px;
+font-weight: 700;
+line-height: 17.76px;
+letter-spacing: 1px;
+color: $oq;
+    }
+}
+.button2:hover{
+    background-color: $havoranh;
+}
+.button3{
+    width: 160px;
+    height: 48px;
+    border: 0;
+    background-color:transparent;
+    transition: all .5s ease;
+    border:  double 1px $qora;
+    a{
+font-size: 13px;
+font-weight: 700;
+line-height: 17.76px;
+letter-spacing: 1px;
+color: $qora;
+    }
+}
+.button3:hover{
+    background-color:#ffffff;
+}
